@@ -1,0 +1,88 @@
+a:link {color:black;text-decoration:none;}      /* 未访问链接*/
+a:visited {color:black;}  /* visited link */
+a:hover {color:deeppink;cursor: pointer}  /* mouse over link */
+a:active {color:pink;}  /* selected link */
+ul{
+    padding: 0px;
+}
+.dropbtn {
+
+    background-color: white;
+    color: #666666;
+    padding: 15px;
+    font-size: 14px;
+    border:1px solid transparent;
+    cursor: pointer;
+}
+
+.dropdown {
+    z-index: -1;
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    z-index: 1;
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 450px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content a {
+    font-size: 12px;
+    font-family: 宋体;
+    color: black;
+    padding: 6px 10px;
+    text-decoration: none;
+    display:inline-block;
+}
+
+.dropdown-content a:hover {background-color: pink}
+
+.dropdown:hover .dropbtn{
+    border:1px solid #eeeeee;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+#logo li{
+    display: inline;
+}
+.logo-font{
+    color: #666666;
+    font-size: 14px;
+}
+.播放地址1选集-ul li{
+    margin: 8px 13px 0px 0px;
+    width: 140px;
+    height: 26px;
+    font-size: 14px;
+    font-family: 宋体;
+    border: 1px solid #eee;
+    display: inline-block;
+    text-align: center;
+}
+.最近更新 {
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+}
+.最近更新 li{
+    display: inline-block;
+    padding: 0px;
+    margin-left: 12px;
+    width: 140px;
+    height:184px;
+}
+.最近更新 li p{
+    margin-top: 0px;
+    font-size: 14px;
+    font-family: 宋体;
+}
+#jiewei p{
+    font-size: 12px;
+    font-family: 宋体;
+    text-align: center;
+}

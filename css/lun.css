@@ -1,0 +1,119 @@
+
+#container{
+    margin-left: 200px;
+    width: 700px;
+    height:700px;
+    position: relative;
+    overflow: hidden;
+}
+#inner-list{
+    width: 400%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+#inner-list li{
+    float: left;
+    margin:0;
+    padding:0;
+    imageWidth:940px;
+    arrowWidth:44px;
+    height:60px;
+}
+
+
+.multi-circles-li {
+list-style: none;
+}
+.clear {
+clear:both;
+}
+
+#banner {
+width:calc(288px);
+}
+
+#box {
+position:relative;
+width:940px;
+height:200px;
+overflow: hidden;
+}
+
+#multi-circles {
+position:absolute;
+right:30px;
+bottom:10px;
+z-index: 2;
+}
+
+#multi-circles li {
+float:left;
+margin-right:15px;
+width:10px;
+height:10px;
+border-radius: 100%;
+background-color:rgb(240, 240, 240);
+}
+
+#multi-images {
+position:absolute;
+left:0;
+top:0;
+z-index: 1;
+width:calc(4700px);
+height:200px;
+transition: 3s;
+}
+
+#multi-images img {
+float:left;
+width:940px;
+height:200px;
+}
+
+#arrow-right,
+#arrow-left {
+cursor:pointer;
+position: absolute;
+top:50%;
+margin-top:-20px;
+height:40px;
+z-index: 3;
+display:none;
+}
+
+#arrow-right {
+right:0;
+}
+
+#arrow-left {
+left:0;
+}
+
+#dot-list{
+    position: absolute;
+    bottom:20px;
+    right:20px;
+
+}
+#dot-list li{float: left;display: inline-block;
+    width: 20px;height:20px;border-radius: 50%;line-height: 20px;text-align: center;
+    background: rgba(255,255,255,.3);cursor: pointer;margin-right: 10px;
+}
+#dot-list li.cur{
+    background: rgba(255,255,255,.6);
+}
+.btn-ctrl{
+    position: absolute;cursor: pointer;
+    top: 50%;
+    font-size: 36px;
+    color: red;
+    font-weight: 500;z-index: 2;
+}
+#btn-prev{
+    left: 0px;
+}
+#btn-next{
+    right: 0px;
+}
