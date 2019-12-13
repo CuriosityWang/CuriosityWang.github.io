@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>动漫电影</title>
+</head>
+<style type="text/css">
+    a:link {color:black;text-decoration:none;}      /* 未访问链接*/
+    a:visited {color:black;}  /* visited link */
+    a:hover {color:deeppink;cursor: pointer}  /* mouse over link */
+    a:active {color:pink;}  /* selected link */
+    #main{
+        width: 970px;
+        height: auto;
+        margin: auto;
+    }
+    .dropbtn {
+        background-color: white;
+        color: #666666;
+        padding: 15px;
+        font-size: 14px;
+        border:1px solid transparent;
+        cursor: pointer;
+    }
+
+    .dropdown {
+        position: relative;
+        display: inline-block;
+    }
+
+    .dropdown-content {
+        z-index: 1;
+        display: none;
+        position: absolute;
+        background-color: #f9f9f9;
+        min-width: 450px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    }
+
+    .dropdown-content a {
+        font-size: 12px;
+        font-family: 宋体;
+        color: black;
+        padding: 6px 10px;
+        text-decoration: none;
+        display:inline-block;
+    }
+
+    .dropdown-content a:hover {background-color: pink}
+
+    .dropdown:hover .dropbtn{
+        border:1px solid #eeeeee;
+    }
+    .dropdown:hover .dropdown-content {
+        display: block;
+    }
+
+
+    ul{
+        padding: 0px;
+    }
+    #logo li{
+        display: inline;
+    }
+    .logo-font {
+        color: #666666;
+        font-size: 14px;
+        cursor: pointer;
+    }
+    #menu_one li{
+        display: inline;
+        margin-left: 10px;
+    }
+    .动漫电影 {
+        margin: 0px;
+        padding: 0px;
+        list-style-type: none;
+    }
+    .动漫电影-ul li{
+        display: inline-block;
+        padding: 0px;
+        margin-left: 12px;
+        width: 124px;
+        height:164px;
+    }
+    .动漫电影-ul li p{
+        margin-top: 0px;
+        font-size: 13px;
+        font-family: 宋体;
+    }
+    .banner-p{
+       font-family: 宋体;
+        font-size: 14px;
+        color: #C6C6C6;
+        border: 1px solid #eeeeee;
+        width:auto;
+        display: inline-block;
+        margin: 1px;
+        padding: 2px 8px;
+    }
+    #jiewei p{
+        font-size: 12px;
+        font-family: 宋体;
+        text-align: center;
+    }
+</style>
+<body id="main">
+<div id="logo">
+    <ul>
+        <li><a href="#"><img src="images/logo.png" alt="logo"></a></li>
+        <li class="logo-font" style="margin-left:50px "><a href="index.html" target="_blank">首页</a></li>
+        <div class="dropdown" style="display: inline-block">
+            <button class="dropbtn"><a>频道</a></button>
+            <div class="dropdown-content">
+                <a href="#">动漫电影</a>
+                <a href="#">日本动漫</a>
+                <a href="#">国产动漫</a>
+                <a href="#">美国动漫</a>
+                <a href="#">韩国动漫</a>
+                <a href="#">亲子动漫</a>
+                <a href="#">热血动漫</a>
+                <a href="#">校园动漫</a>
+                <a href="#">搞笑动漫</a>
+                <a href="#">神魔动漫</a>
+                <a href="#">机战动漫</a>
+                <a href="#">后宫动漫</a>
+                <a href="#">日语动漫</a>
+                <a href="#">国语动漫</a>
+                <a href="#">粤语动漫</a>
+                <a href="#">英语动漫</a>
+                <a href="#">韩语动漫</a>
+                <a href="#">方言动漫</a>
+
+            </div>
+        </div>
+        <li style="margin-left: 20px">
+
+            <div style="display: inline"><input type="text"placeholder="进击的巨人26集全" style="border-color: pink;height: 35px;width: 230px"></div>
+            <div style="display: inline"><a href="#"><img src="images/sousuo.png" style="width: auto;height: 40px;display: inline-block;position: relative;top: 15px;left: -5px"></a> </div>
+
+        </li>
+        <li class="logo-font" style="margin-left:40px; "><img src="images/1.png"><a>留言</a> </li>
+        <li class="logo-font"><img src="images/2.png"><a>排行榜</a> </li>
+        <li class="logo-font"><img src="images/3.png"><a>播放记录</a> </li>
+    </ul>
+</div>
+
+
+<ul id="menu_one" style="padding-left: 0px;overflow: hidden">
+    <li style="margin-left: 0px"><a href="#" >首页</a></li>
+    <li><a href="#">动漫电影</a></li>
+    <li><a href="#">日本动漫</a></li>
+    <li><a href="#">国产动漫</a></li>
+    <li><a href="#">美国动漫</a></li>
+
+    <li  style="margin-left: 100px"><a href="#">剧场版</a></li>
+    <li><a href="#">OVA版</a></li>
+    <li><a href="#">真人版</a></li>
+    <li><a href="#">宣传版</a></li>
+    <li><a href="#">特典版</a></li>
+    <li><a href="#">TV版</a></li>
+    <li><a href="#">最近更新</a></li>
+</ul>
+<hr style="height: 1px;border: none;background-color: #eeeeee">
+
+<div id="blank" style="width: 100%;height: 5px">
+
+</div>
+
+<h1 style="font-family: 'Microsoft YaHei UI';color: #FC8BBB;font-size: 18px" title="动漫电影">动漫电影</h1>
+
+<div id="动漫电影">
+    <ul class="动漫电影-ul">
+        <li style="margin-left: 0px"><a href="#"> <img src="images/dy1.jpg" alt="Fate/stay night"  width="100%" height="100%"> </a>
+            <p title="Fate/stay night"><a href="#">Fate/stay night</a> </p></li>
+        <li ><a href="#"> <img src="images/dy2.jpg" alt="少女与战车 最终章"  width="100%" height="100%"> </a>
+            <p title="少女与战车 最终章"><a href="#">少女与战车 最终章</a> </p></li>
+        <li ><a href="#"> <img src="images/dy3.jpg" alt="反叛的鲁路修剧场版"  width="100%" height="100%"> </a>
+            <p title="反叛的鲁路修剧场版"><a href="#">反叛的鲁路修剧场版</a> </p></li>
+        <li><a href="#"> <img src="images/dy4.jpg" alt="中二病也要谈恋爱剧"  width="100%" height="100%"> </a>
+            <p title="中二病也要谈恋爱剧"><a href="#">中二病也要谈恋爱剧</a> </p></li>
+        <li ><a href="#"> <img src="images/dy5.jpg" alt="魔法少女奈叶剧场版"  width="100%" height="100%"> </a>
+            <p title="魔法少女奈叶剧场版"><a href="#">魔法少女奈叶剧场版</a> </p></li>
+        <li ><a href="#"> <img src="images/dy6.jpg" alt="Free男子游泳部剧场"  width="100%" height="100%"> </a>
+            <p title="Free男子游泳部剧场"><a href="#">Free男子游泳部剧场</a> </p></li>
+        <li ><a href="#"> <img src="images/dy7.jpg" alt="吹响！上低音号剧场"  width="100%" height="100%"> </a>
+            <p title="吹响！上低音号剧场"><a href="#">吹响！上低音号剧场</a> </p></li>
+    </ul>
+
+    <ul class="动漫电影-ul">
+        <li style="margin-left: 0px"><a href="#"> <img src="images/dy8.jpg" alt="游戏人生剧场版"  width="100%" height="100%"> </a>
+            <p title="游戏人生剧场版"><a href="#">游戏人生剧场版</a> </p></li>
+        <li ><a href="#"> <img src="images/dy9.jpg" alt="魔法科高校的劣等生"  width="100%" height="100%"> </a>
+            <p title="魔法科高校的劣等生"><a href="#">魔法科高校的劣等生</a> </p></li>
+        <li ><a href="#"> <img src="images/dy10.jpg" alt="妄想学生会剧场版"  width="100%" height="100%"> </a>
+            <p title="妄想学生会剧场版"><a href="#">妄想学生会剧场版</a> </p></li>
+        <li><a href="#"> <img src="images/dy11.jpg" alt="刀剑神域剧场版"  width="100%" height="100%"> </a>
+            <p title="刀剑神域剧场版"><a href="#">刀剑神域剧场版</a> </p></li>
+        <li ><a href="#"> <img src="images/dy12.jpg" alt="声之形剧场版"  width="100%" height="100%"> </a>
+            <p title="声之形剧场版"><a href="#">声之形剧场版</a> </p></li>
+        <li ><a href="#"> <img src="images/dy13.jpg" alt="你的名字"  width="100%" height="100%"> </a>
+            <p title="你的名字"><a href="#">你的名字</a> </p></li>
+        <li ><a href="#"> <img src="images/dy14.jpg" alt="杀戮都市剧场版"  width="100%" height="100%"> </a>
+            <p title="杀戮都市剧场版"><a href="#">杀戮都市剧场版</a> </p></li>
+    </ul>
+    <ul class="动漫电影-ul">
+        <li style="margin-left: 0px"><a href="#"> <img src="images/dy15.jpg" alt="火影忍者2015剧场"  width="100%" height="100%"> </a>
+            <p title="火影忍者2015剧场"><a href="#">火影忍者2015剧场</a> </p></li>
+        <li ><a href="#"> <img src="images/dy16.jpg" alt="喜羊羊与灰太狼之开心闯龙年"  width="100%" height="100%"> </a>
+            <p title="喜羊羊与灰太狼之开心闯龙年"><a href="#">喜羊羊与灰太狼之开</a> </p></li>
+        <li ><a href="#"> <img src="images/dy17.jpg" alt="喜羊羊与灰太狼之兔年顶呱呱"  width="100%" height="100%"> </a>
+            <p title="喜羊羊与灰太狼之兔年顶呱呱"><a href="#">喜羊羊与灰太狼之兔</a> </p></li>
+        <li><a href="#"> <img src="images/dy18.jpg" alt="我爱灰太狼"  width="100%" height="100%"> </a>
+            <p title="我爱灰太狼"><a href="#">我爱灰太狼</a> </p></li>
+        <li ><a href="#"> <img src="images/dy19.jpg" alt="悬崖上的金鱼公主"  width="100%" height="100%"> </a>
+            <p title="悬崖上的金鱼公主"><a href="#">悬崖上的金鱼公主</a> </p></li>
+        <li ><a href="#"> <img src="images/dy20.jpg" alt="布吉怪人"  width="100%" height="100%"> </a>
+            <p title="布吉怪人"><a href="#">布吉怪人</a> </p></li>
+        <li ><a href="#"> <img src="images/dy21.jpg" alt="汤姆·索耶历险记"  width="100%" height="100%"> </a>
+            <p title="汤姆·索耶历险记"><a href="#">汤姆·索耶历险记</a> </p></li>
+    </ul>
+    <ul class="动漫电影-ul">
+        <li style="margin-left: 0px"><a href="#"> <img src="images/dy22.jpg" alt="老夫子之小水虎传奇"  width="100%" height="100%"> </a>
+            <p title="老夫子之小水虎传奇"><a href="#">老夫子之小水虎传奇</a> </p></li>
+        <li ><a href="#"> <img src="images/dy23.jpg" alt="乐高女孩系列心湖城的故事第一季"  width="100%" height="100%"> </a>
+            <p title="乐高女孩系列心湖城的故事第一季"><a href="#">乐高女孩系列心湖城</a> </p></li>
+        <li ><a href="#"> <img src="images/dy24.jpg" alt="小战象2"  width="100%" height="100%"> </a>
+            <p title="小战象2"><a href="#">小战象2</a> </p></li>
+        <li><a href="#"> <img src="images/dy25.jpg" alt="邪恶新世界 2"  width="100%" height="100%"> </a>
+            <p title="邪恶新世界 2"><a href="#">邪恶新世界 2</a> </p></li>
+        <li ><a href="#"> <img src="images/dy26.jpg" alt="摩尔庄园2海妖宝藏"  width="100%" height="100%"> </a>
+            <p title="摩尔庄园2海妖宝藏"><a href="#">摩尔庄园2海妖宝藏</a> </p></li>
+        <li ><a href="#"> <img src="images/dy27.jpg" alt="怪兽在巴黎"  width="100%" height="100%"> </a>
+            <p title="怪兽在巴黎"><a href="#">怪兽在巴黎</a> </p></li>
+        <li ><a href="#"> <img src="images/dy28.jpg" alt="赛尔号2:雷伊与迈尔斯"  width="100%" height="100%"> </a>
+            <p title="赛尔号2:雷伊与迈尔斯"><a href="#">赛尔号2:雷伊与迈尔</a> </p></li>
+    </ul>
+    <ul class="动漫电影-ul">
+        <li style="margin-left: 0px"><a href="#"> <img src="images/dy29.jpg" alt="北京房事"  width="100%" height="100%"> </a>
+            <p title="北京房事"><a href="#">北京房事</a> </p></li>
+        <li ><a href="#"> <img src="images/dy30.jpg" alt="猪猪侠之囧囧危机"  width="100%" height="100%"> </a>
+            <p title="猪猪侠之囧囧危机"><a href="#">猪猪侠之囧囧危机</a> </p></li>
+        <li ><a href="#"> <img src="images/dy31.jpg" alt="大闹天宫3D"  width="100%" height="100%"> </a>
+            <p title="大闹天宫3D"><a href="#">大闹天宫3D</a> </p></li>
+        <li><a href="#"> <img src="images/dy32.jpg" alt="麦兜当当伴我心"  width="100%" height="100%"> </a>
+            <p title="麦兜当当伴我心"><a href="#">麦兜当当伴我心</a> </p></li>
+        <li ><a href="#"> <img src="images/dy33.jpg" alt="功夫熊猫"  width="100%" height="100%"> </a>
+            <p title="功夫熊猫"><a href="#">功夫熊猫</a> </p></li>
+        <li ><a href="#"> <img src="images/dy34.jpg" alt="小飞象"  width="100%" height="100%"> </a>
+            <p title="小飞象"><a href="#">小飞象</a> </p></li>
+        <li ><a href="#"> <img src="images/dy35.jpg" alt="圣诞颂歌"  width="100%" height="100%"> </a>
+            <p title="圣诞颂歌"><a href="#">圣诞颂歌</a> </p></li>
+    </ul>
+</div>
+
+
+<div class="banner">
+    <span style="font-size: 14px;color: #000000;margin-left: 100px;font-family: 宋体;">共503条数据 页次:1/15页</span>
+    <p class="banner-p">首页</p>
+    <p class="banner-p">上一页</p>
+    <a><p class="banner-p" style="color: black;color: #1974C8;background: #EFF8FE">1</p></a>
+    <p class="banner-p" style="color: black"><a>2</a></p>
+    <p class="banner-p" style="color: black"><a>3</a></p>
+    <p class="banner-p" style="color: black"><a>4</a></p>
+    <p class="banner-p" style="color: black"><a>5</a></p>
+    <p class="banner-p" style="color: black"><a>6</a></p>
+    <p class="banner-p" style="color: black"><a>7</a></p>
+    <p class="banner-p" style="color: black"><a>8</a></p>
+    <p class="banner-p" style="color: black"><a>下一页</a></p>
+    <p class="banner-p" style="color: black"><a>尾页</a></p>
+    <input style="width: 54px;height: 15px">
+    <p class="banner-p" style="color: black"><a>跳转</a></p>
+
+</div>
+
+<!--页脚-->
+<div style="width: 100%;height: auto;">
+   <hr style="background-color:pink;height: 2px;border: none">
+
+    <div id="jiewei">
+        <p><span><a href="#">RSS订阅</a></span>|<span><a href="#">给我留言</a> </span>|<span><a href="#">最新更新</a></span>
+            |<span><a href="#">动漫排行榜</a></span>|<span><a href="#">网站地图</a></span>|<span><a href="#">动漫大全</a></span>
+            |<span><a href="#">动漫专题</a></span>|<span><a href="#">设为桌面图标</a></span></p>
+        <p>本网站提供的资源均系收集于各大视频网站，本网站只提供web页面服务，并不提供影片资源存储，也不参与录制、上传</p>
+        <p>若本站收录的节目无意侵犯了贵司版权，请给网页底部邮箱地址来信，我们会及时处理和回复，谢谢</p>
+        <p></p>
+    </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>关于我们</title>
+</head>
+<style>
+    body{
+        background-image: url("./images/hemlback.gif");
+        background-size:cover;
+        background-repeat: no-repeat;
+    }
+    #head{
+        z-index: 1;
+        text-align: center;
+    }
+    .back{
+        position: fixed;
+        top: 0px;
+        left: 0px;
+        z-index: 2;
+    }
+    .back_tip{
+        position: fixed;
+        left: 0px;
+        top: 180px
+    }
+
+    .back_gao,.back_wang{
+        position: relative;
+        top:0px;
+        left:0px;
+    }
+    .gao, .wang{
+        position:absolute;
+        top: 20%;
+        left: 60%;
+        width: 300px;
+        transition-property: width,transform;
+        transition-delay: 0.3s;
+        transition-duration: 2.5s;
+    }
+    .gao:hover,.wang:hover{
+        transform:rotate(360deg);
+        width: 500px;
+    }
+    #wangxin, #gaolonghao{
+        position: relative;
+        text-align: center;
+        height: 20%;
+        z-index: 2;
+    }
+    .gao_text, .wang_text{
+        border: solid #fab4eb;
+        border-radius: 50px;
+        position: absolute;
+        top: 32%;
+        left: 30%;
+        width: 20px;
+        overflow: hidden;
+        transition-property: width;
+        transition-delay: 0.3s;
+        transition-duration: 2s;
+    }
+    .gao_text:hover, .wang_text:hover{
+        width: 500px
+    }
+    .contact{
+
+        position: fixed;
+        bottom: 5%;
+        right:-10%;
+        z-index: 2;
+    }
+</style>
+<body>
+<div id="head">
+    <div class="back">
+        <a href="#"><image src="./images/返回首页.png" alt="返回首页" height="200px"></image></a>
+        <image src="./images/text.png" alt="返回首页" height="100px" class="back_tip" width="20%"></image>
+    </div>
+    <image src="./images/head.png" alt="image" width="60%" height="5%"></image>
+</div>
+
+<div id="gaolonghao">
+    <div class="gao_image">
+        <image src="./images/backgao.jpg" alt="bak_gao" width="60%" class="back_gao" ></image>
+        <a href="https://baike.baidu.com/item/%E5%BD%AD%E4%BA%8E%E6%99%8F" title="点击会发现一个和他一样帅的小哥哥"><image src="./images/高龙昊.png" alt="gao" class="gao"></image></a>
+    </div>
+    <div class="gao_text">
+        <image src="./images/gaotext.png" width="500px"></image>
+    </div>
+
+</div>
+
+<div id="wangxin">
+    <div class="wang_image">
+        <image src="./images/backwang.png" alt="bak_wang" width="60%" class="back_wang" ></image>
+        <a href="https://baike.baidu.com/item/%E8%83%A1%E6%AD%8C/312718?fr=aladdin" title="点击会发现一个和他一样帅的小哥哥"><image src="./images/王鑫.png" alt="wang" class="wang"></image></a>
+    </div>
+    <div class="wang_text">
+        <image src="./images/xintext.png" width="500px"></image>
+    </div>
+</div>
+
+<div class="contact">
+    <a href="mailto:name@email.com"><image src="./images/contact.png" width="500px"></image></a>
+</div>
+
+</body>
+</html>

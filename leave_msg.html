@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>留言</title>
+    <style type="text/css">
+        body{
+            background:url("./images/bak.png");
+            background-size: 100%;
+        }
+        .message_box {
+            margin-left:auto;
+            margin-right:auto;
+            max-width: 500px;
+            background: #FFF;
+            padding: 30px 30px 20px 30px;
+            box-shadow: rgba(187, 187, 187, 1) 0 0px 20px -1px;
+            -webkit-box-shadow: rgba(187, 187, 187, 1) 0 0px 20px -1px;
+            font: 12px Arial, Helvetica, sans-serif;
+            color: #666;
+            border-radius: 10px;
+            -webkit-border-radius: 10px;
+        }
+        .message_box h1 {
+            padding: 0px 0px 10px 40px;
+            display: block;
+            border-bottom: 1px solid #F5F5F5;
+            margin: -10px -30px 10px -30px;
+            color: #969696;
+        }
+        .message_box h1>span {
+            display: block;
+            font-size: 11px;
+            color: #C4C2C2;
+        }
+        .message_box label {
+            display: block;
+            margin: 0px 0px 5px;
+        }
+        .message_box label>span {
+            float: left;
+            width: 20%;
+            text-align: right;
+            padding-right: 10px;
+            margin-top: 10px;
+            color: #969696;
+        }
+        .message_box input[type="text"], .message_box input[type="email"], .message_box textarea{
+            font-family: "Adobe Devanagari";
+            color: #555;
+            width: 70%;
+            padding: 3px 0px 3px 5px;
+            margin-top: 2px;
+            margin-right: 6px;
+            margin-bottom: 16px;
+            border: 1px solid #e5e5e5;
+            background: #fbfbfb;
+            height: 25px;
+            line-height:15px;
+            -webkit-box-shadow: inset 1px 1px 2px rgba(200,200,200,0.2);
+            box-shadow: inset 1px 1px 2px rgba(200,200,200,0.2);
+        }
+        .message_box textarea{
+            height:100px;
+            padding: 5px 0px 0px 5px;
+            width: 70%;
+        }
+        .message_box .button {
+            -moz-box-shadow:inset 0px 1px 0px 0px #fbafe3;
+            -webkit-box-shadow:inset 0px 1px 0px 0px #fbafe3;
+            box-shadow:inset 0px 1px 0px 0px #fbafe3;
+            background-color:#ff5bb0;
+            border-radius:9px;
+            -webkit-border-radius:9px;
+            -moz-border-border-radius:9px;
+            border:1px solid #ee1eb5;
+            display:inline-block;
+            color: #ffffff;
+            font-family:Arial;
+            font-size:15px;
+            font-weight:bold;
+            font-style:normal;
+            height: 40px;
+            line-height: 30px;
+            width:100px;
+            text-decoration:none;
+            text-align:center;
+            text-shadow:1px 1px 0px #c70067;
+        }
+        .text_A{
+            font-family: "宋体";
+            display: inline;
+        }
+    </style>
+</head>
+<body>
+<div class="message_box">
+    <form action="" method="post" class="basic-grey">
+        <h1>想说的话
+            <span>感谢有你一路陪伴</span>
+        </h1>
+
+        <label>
+            <span>Message :</span>
+            <textarea id="message" name="message" placeholder="Your message to us"></textarea>
+        </label>
+        <label>
+            <span>Your Email :</span>
+            <input id="email" type="email" name="email" placeholder="if you don't mind" />
+        </label>
+        <label>
+            <span>&nbsp;</span>
+            <input type="button" class="button" id="myBtn" value="Send" />
+        </label>
+    </form>
+</div>
+<script>
+    document.getElementById("myBtn").addEventListener("click", success_note);
+    function success_note() {
+        alert("我们已经收到了您的留言");
+    }
+</script>
+
+<div class="barrage">
+    <div class="text_A">
+        <marquee scrollamount="15"><font color="#7fffd4"><h1>哇哇哇!!!感谢小站</h1></font></marquee>
+        <marquee scrollamount="35"><font color="blue"><h2>终于看到了想看的动漫</h2></font></marquee>
+        <marquee scrollamount="38"><font color="#1e90ff" size="60px"><span>良心!!!良心!!!良心!!!</span></font></marquee>
+    </div>
+        <marquee scrollamount="17"><font color="red"><h3>感谢有你一路陪伴</h3></font></marquee>
+        <marquee scrollamount="45"><font color="#a52a2a"><h5>呜呜呜呜,好感度</h5></font></marquee>
+        <marquee scrollamount="15"><font color="#7fffd4"><h4>谢谢你</h4></font></marquee>
+        <marquee scrollamount="28" scrolldelay=100>已经推荐给朋友了</marquee>
+        <marquee scrollamount="15"><font color="#7fffd4"><h1>继续加油</h1></font></marquee>
+        <marquee scrollamount="35"><font color="#adff2f"><h2>今天也是元气满满的一天哦</h2></font></marquee>
+        <marquee scrollamount="38"><font color="white"><h1>哈哈哈</h1></font></marquee>
+        <marquee scrollamount="17"><h3>感谢有你一路陪伴</h3></marquee>
+</div>
+
+</body>
+</html>
