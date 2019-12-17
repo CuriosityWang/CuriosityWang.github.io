@@ -162,18 +162,13 @@
 </body>
 <script>
     var brightness;
-    var hh=document.getElementsByClassName("dropbtn");
     function player(brightness) {
         if (typeof(div) == 'undefined') {
             div = document.createElement('div');
             div.setAttribute('style', 'outline:5000px solid;z-index:99999;');
             document.body.appendChild(div);
-
-        } else {
-            div.style.display = '';
         }
         div.style.outlineColor = 'rgba(0,0,0,' + brightness + ')';
-        hh.style.backgroundColor ='pink';
     }
     window.addEventListener('keydown', function(e) {
         if (e.altKey && e.keyCode == 90) { //Alt+Z:打开夜间模式
